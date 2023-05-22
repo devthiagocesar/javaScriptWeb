@@ -1,0 +1,22 @@
+h1 {font-size: 70px;
+    color: #111;
+    font-weight: bold
+    
+    }
+
+
+button {
+    font-size: 30px;
+    font-weight: 900;
+    padding: 16px 35px;
+    color: #fff;
+    background-color: #111;
+    border-color: #111;
+}
+
+.paragraph-js {
+font-size: 30px;
+color: #111;
+font-weight: bold
+
+}
