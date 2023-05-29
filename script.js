@@ -23,9 +23,25 @@ innerText -> Pega APENAS o texto
 innerHTML -> Permite adicionar HTML e texto
 
 */
-const element = document.querySelector (".paragraph-js")
 
 
-console.log (element.textContent) // SÓ HTML
-console.log (element.innerText) //LEVA EM CONTA 0 CSS
-console.log (element.innerHTML) //TRÁS TUDO
+/*
+
+Eventos
+
+*/
+
+const input = document.querySelector ("#main-input")
+
+function cliqueiNoBotao(){
+    alert ("Botão clicado com sucesso")
+    console.log (input.value)
+}
+
+function digiteiNoInput (){
+    console.log ("Digite seu contato")
+}
+
+
+
+
